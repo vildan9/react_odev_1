@@ -24,3 +24,5 @@
 11. export default getData diyerek de getData fonksiyonunu dışarı aktarmış olduk.
 12. buradan sonra callback fonksiyonunu index.js ye yazdığımız için terminale "node index.js" yazarak istediğimiz verileri çağırmış olacağız.
 index.js 'de import data from "./app.js"; app.js dosyasını içe aktarıyoruz. sonra .then ve .catch'i console'a yazdırıyoruz.
+(export default,ES6'nın bir modülü (dosyayı) dışa aktarmak ve onu başka bir modülde (dosya) kullanmak için kullanılan özelliğidir.
+default exportdosyadan (modül) yalnızca bir nesneyi (değişken, işlev, sınıf) dışa aktarmak istiyorsanız kuraldır.)
