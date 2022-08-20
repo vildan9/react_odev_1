@@ -23,3 +23,4 @@
 10. Tüm bunu try içine yerleştirerek .then olunca çalışan kısmı belirtmiş olduk. eğer hata verirse de catch ile "error" almış olacağız. 
 11. export default getData diyerek de getData fonksiyonunu dışarı aktarmış olduk.
 12. buradan sonra callback fonksiyonunu index.js ye yazdığımız için terminale "node index.js" yazarak istediğimiz verileri çağırmış olacağız.
+index.js 'de import data from "./app.js"; app.js dosyasını içe aktarıyoruz. sonra .then ve .catch'i console'a yazdırıyoruz.
